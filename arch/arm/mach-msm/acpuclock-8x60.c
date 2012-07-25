@@ -57,7 +57,7 @@
 #define SCPLL_NOMINAL_VDD	1100000 /* uV */
 
 #define MAX_BOOT_KHZ        1512000 /* KHz */
-#define MAX_RUN_KHZ         1944000 /* KHz */
+#define MAX_RUN_KHZ         1836000 /* KHz */
 
 /* SCPLL Modes. */
 #define SCPLL_POWER_DOWN	0
@@ -311,7 +311,6 @@ static struct clkctl_acpu_speed acpu_freq_tbl_slow[] = {
   { {1, 1}, 1728000,  ACPU_SCPLL, 0, 0, 1, 0x20, L2(20), 1275000, 0x03006000},
   { {1, 1}, 1782000,  ACPU_SCPLL, 0, 0, 1, 0x21, L2(20), 1300000, 0x03006000},
   { {1, 1}, 1836000,  ACPU_SCPLL, 0, 0, 1, 0x22, L2(20), 1325000, 0x03006000},
-  { {1, 1}, 1890000,  ACPU_SCPLL, 0, 0, 1, 0x23, L2(20), 1350000, 0x03006000},
   { {0, 0}, 0 },
 };
 
